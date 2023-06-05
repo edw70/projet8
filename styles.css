@@ -13,7 +13,8 @@ body
     background-color: #202020;;
     background-image: url(images/Geeknius\ Dark.png);
     width: 1860px;
-    
+
+     /*  ligne une */  
 } 
 .coordinate
 {
@@ -36,6 +37,8 @@ body
     margin-top: 30px;
     margin-right: 32.8px;
 } 
+
+    /*  tableau un */  
 #table1
 {
     display: flex;
@@ -47,25 +50,22 @@ body
     line-height: 24px;
     letter-spacing: 25%;
     text-transform: uppercase;
-    margin-top: 154px;
+    margin-top: 92px;
     margin-bottom: 33px;
-    
-    
+        
 } 
 h1
 {
     font-size: 72px;
     line-height: 100.8px;
     letter-spacing: -3px;
-    width: 706px;
-   
+    width: 706px;  
 }
 ul
 {
     padding: 0;
     font-size: 16px;
-    line-height: 24px;
-    
+    line-height: 24px;  
 }
 dl
 {
@@ -83,49 +83,46 @@ dl
 }
 .photoprofil
 {
-    margin-top: 148px;
+    margin-top: 86px;
 }
+
+    /*  boutons */  
 #boutons
 {
     display: flex;
     
 }
-p.portfolio >a
+.portfolio >a
 {
     text-decoration: none;
     color: #FFFFFF;
-}
-.portfolio
-{
     margin-right: 20px;
-    padding-top: 12px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 11px;
+    padding: 12px 32px 11px 32px;
     border-radius: 50px;
     background-color: #BB2323;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 23.8px;
-   
+    box-sizing: border-box;
+    border: solid 2px;
+    border-color: #BB2323;  
 }  
 
 .contact >a
 {
     text-decoration: none;
     color: #F87F28;
-}
-.contact
-{
-    border-color:#F87F28 2px ;
-    background-color: aqua;
+    border-color:#F87F28;
+    border: solid 2px;
     border-radius: 50px;
-    padding-top: 12px;
-    padding-bottom: 11px;
-    padding-left: 35px;
-    padding-right: 29px;
-    
+    padding:12px 29px 11px 35px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 23.8px;
+    margin-top: 72px;
 }
+    /*  clients logos */      
 .clients
 {
     text-align: center;
@@ -141,3 +138,18 @@ p.portfolio >a
     display: flex;
     justify-content: center;
 }
+.ubisoft
+{
+    margin-left: 60.21px;
+    margin-right: 22.5px;
+}
+.capcom
+{
+    margin-left: 40px;
+    margin-right: 32.06px;
+}
+.microsoft
+{
+    margin-right: 13.15px;
+}
+/*  diapo 2 */  
