@@ -324,7 +324,7 @@ button
 .general
 {
     display: flex;
-    
+    margin-top: 239px;
 }
 .aujourdhui, .mai, .sept
 {
@@ -335,15 +335,30 @@ button
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.webdev
+.webdev, .directeur, .webdev2
 {
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
     text-transform: capitalize;
+    width: 262px;
+    gap: 70px;
 }
 .bloc2
 {
-    width: 262px;
-    
+    margin-left: 121px;
+    margin-right: 75px;
+}
+ 
+/* diapo5 */ 
+.diapo5{
+    display: block;
+
+}
+
+
+
+.titre2
+{
+    margin-top: 3000px;
 }
