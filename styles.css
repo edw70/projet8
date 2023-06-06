@@ -142,6 +142,7 @@ dl
 {
     margin-left: 60.21px;
     margin-right: 22.5px;
+    margin-bottom: 92px;
 }
 .capcom
 {
@@ -153,3 +154,121 @@ dl
     margin-right: 13.15px;
 }
 /*  diapo 2 */  
+
+h2
+{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 221px;
+    margin-bottom: 45px;
+}
+.competences
+{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.technique
+{
+    display: grid;
+    column-gap: 90px;
+    
+}
+.imgtech
+{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.tech
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+.descriptech
+{
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 14px;
+    line-height: 24px;
+    width: 172px;
+   
+}
+.imggestion
+{
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+.gestion
+{
+    grid-column: 2;
+    grid-row: 2; 
+}
+.descripgestion
+{
+    grid-column: 2;
+    grid-row: 3; 
+    width: 176px;
+}
+.imgmanagement
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+.management
+{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+.descripmanage
+{
+    grid-column: 3;
+    grid-row: 3;
+    width: 191px;
+}
+.imglangues
+{
+    grid-column: 4;
+    grid-row: 1;
+}
+.langues
+{
+    grid-column: 4;
+    grid-row: 2; 
+}
+.descriplang
+{
+    grid-column: 4;
+    grid-row: 3; 
+    width: 192px;
+}
+#pointfort
+{
+    margin-left: 403px;
+    margin-right: 403px;
+}
+h3
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+  /* diapo3 */ 
+h4
+{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.galerie
+{
+    width: 296px;
+    font-size: 14px;
+    line-height: 24px;
+}
