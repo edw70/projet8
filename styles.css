@@ -306,6 +306,7 @@ h4
     width: 242px;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 29px ;
 }
 button
 {
@@ -343,22 +344,52 @@ button
     text-transform: capitalize;
     width: 262px;
     gap: 70px;
+    margin-top: 13px;
 }
 .bloc2
 {
     margin-left: 121px;
     margin-right: 75px;
 }
+.webdev
+{
+    margin-bottom: 105px;
+}
+.directeur
+{
+margin-bottom: 72px;
+}
+.taches1, .taches2
+{
+    margin-bottom: 72px;
+}
+.taches1, .taches2, .taches3
+{
+    font-size: 14px;
+    line-height: 24px;
+    width: 328px;
+    
+}
+.taches3
+{
+    width: 302px;
+}
  
 /* diapo5 */ 
 .diapo5{
-    display: block;
+    display:flex;
 
 }
-
-
-
 .titre2
 {
-    margin-top: 3000px;
+    margin-top: 245px;
+}
+.competences
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+#softskill
+{
+    margin-top: 200px;
 }
