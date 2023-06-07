@@ -358,7 +358,7 @@ button
 }
 .directeur
 {
-margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 .taches1, .taches2
 {
@@ -423,7 +423,81 @@ margin-bottom: 72px;
 {
     font-size: 15px;
     line-height: 22.4px;
-    letter-spacing: 0.5px;   
+    letter-spacing: 0.5px; 
+    margin-bottom: 188.64px;  
 }
 
 /* diapo7 */ 
+#Actualités, #contact
+{
+    display: flex;
+    margin-left: 383px;
+    margin-right: 383px;
+
+}
+#titreactualités
+{
+   margin-right:  88px; 
+}
+.dates
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 2px;
+    color: #F87F28;
+    text-transform: uppercase;
+}
+.detailstitre
+{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.descripactu, .lien
+{
+    font-size: 14px;
+    line-height: 24px;
+    width: 522px;
+}
+#actu1
+{
+    margin: 0;
+    text-align: left;
+}
+
+/* diapo8 */
+
+.contact1
+{
+  color: #BFBFBF;  
+  text-align: left;
+  margin-top: 197px;
+}
+.adresse, .email, .telephone
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    color: #F87F28;
+}
+
+.adresse1, .email1, .telephone1
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#contactezmoi
+{
+margin-top: 140px;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+line-height: 16.8px;
+font-weight: 700;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
