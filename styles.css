@@ -471,9 +471,9 @@ button
 
 .contact1
 {
-  color: #BFBFBF;  
-  text-align: left;
-  margin-top: 197px;
+    color: #BFBFBF;  
+    text-align: left;
+    margin-top: 197px;
 }
 .adresse, .email, .telephone
 {
@@ -493,11 +493,35 @@ button
 
 #contactezmoi
 {
-margin-top: 140px;
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-line-height: 16.8px;
-font-weight: 700;
-letter-spacing: 2px;
-text-transform: uppercase;
+    margin-top: 140px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 16.8px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
+.champs_formulaire
+{
+    display: flex;
+}
+label
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    line-height: 23.8px;
+    color: #E5E9F1;
+    display: inline-block;
+    margin-top: -20px;
+}
+input[type="text"]
+{
+    background-color: aqua; 
+
+    border: 1px solid yellow ;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* media media media media media*/
