@@ -12,11 +12,8 @@ body
 {
     background-color: #202020;;
     background-image: url(images/Geeknius\ Dark.png);
-    width: min (100%,1860px);
-    min-height: 100vh;
-
-} 
-
+    width: min(100%,1860px);
+}
 /*  ligne une */  
 
 .coordinate
@@ -128,7 +125,7 @@ li
     line-height: 23.8px;
     margin-top: 72px;
 }
-    /*  clients logos */      
+         
 .clients
 {
     text-align: center;
@@ -139,12 +136,12 @@ li
     margin-bottom: 4px;
     color: #BFBFBF;
 }
-.logoclients
+ .logoclients
 {
-    display: flex;
-    justify-content: center;
+    margin-left: 335px;
+    
 }
-.ubisoft
+/*.ubisoft
 {
     margin-left: 60.21px;
     margin-right: 22.5px;
@@ -157,8 +154,8 @@ li
 }
 .microsoft
 {
-    margin-right: 13.15px;
 }
+margin-right: 13.15px;*/ 
     /*  diapo 2 */  
 
 h2
@@ -530,92 +527,94 @@ input[type="text"]
     margin-top: 20px;
 }
 /* media media media media media*/
-#contenair
-{
-    background-color: #202020;;
-    background-image: none;
-    width: min (100%,1860px);
-    min-height: 100vh;
-} 
 
-
-
-
-.coordinate
-{
-    display: block;  
-    margin-left: 30px; 
-}
-.phone,.mail
-{
-    display: none;
-}
-#table1
-{
-    display: block;
-    margin-left: 23px;
-} 
-.colright
-{
-    display: none;
-}
-h1
-{
-    font-size: 40px;
-}
- /*  clients logos */ 
-.clients
-{
-    text-align: left;
+@media screen and (max-device-width: 374.99px) {
     
-}
-.logoclients
-{
-    display: block;
+    #contenair
+    {
+        background-color: #202020;;
+        background-image: none;
+        margin: 0;
+    }
     
-}
-  /*  diapo 2 */ 
-  .technique
-{
-    display: block;
-    column-gap: 90px;
-    margin-bottom: 324px;
-}
-#pointfort
-{
-    margin-left: 38px;
-    margin-right: 0px;
-}
-/* diapo3 */ 
-.diapo3
-{
-    display: block;  
-}
-.bureau,.water,.orange
-{
-    display: block;
-}
- /* diapo4 */ 
- button
- {
+    .coordinate
+    {
+        display: block;  
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .firstname
+    {
+        margin-top: 22px;
+    }
+
+    .phone,.mail
+    {
+        display: none;
+    }
+    #table1
+    {
+        display: block;
+        margin-left: 23px;
+    } 
+    .colright
+    {
+        display: none;
+    }
+    h1
+    {
+        font-size: 40px;
+    }
+    /*  clients logos */ 
+    .clients
+    {
+        text-align: left;
+        
+    }
+    .logoclients
+    {
+        display: block;
+        
+    }
+    /*  diapo 2 */ 
+    .technique
+    {
+        display: block;
+        column-gap: 90px;
+        margin-bottom: 324px;
+    }
+    #pointfort
+    {
+        margin-left: 38px;
+        margin-right: 0px;
+    }
+    /* diapo3 */ 
+    .diapo3
+    {
+        display: block;  
+    }
+    .bureau,.water,.orange
+    {
+        display: block;
+    }
+    /* diapo4 */ 
     
- }
- .general
-{
-    display: block;
-    margin-top: 239px;
-}
-.bloc3
-{
-   display: none; 
-}
-/* diapo5 */ 
-.diapo5
-{
-    display: none;
-}
-/* diapo6 */ 
-#temoignage
+    .general
+    {
+        display: block;
+        margin-top: 239px;
+    }
+    .bloc3
+    {
+        display: none; 
+    }
+    /* diapo5 */ 
+    .diapo5
+    {
+        display: none;
+    }
+    /* diapo6 */ 
+    #temoignage
 {
     display: block;
     margin-left: 37px;
@@ -631,14 +630,12 @@ h1
     width: 299px;
 }
 /* diapo7 */ 
-#Actualités
+#Actualités, #contact
 {
     display: block;
     margin-left: 35px;
     margin-right: 35px;
 }
 /* diapo8 */
-#contact
-{
-    display: block;
+
 }
