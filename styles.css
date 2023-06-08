@@ -12,10 +12,13 @@ body
 {
     background-color: #202020;;
     background-image: url(images/Geeknius\ Dark.png);
-    width: 1860px;
+    width: min (100%,1860px);
+    min-height: 100vh;
 
-     /*  ligne une */  
 } 
+
+/*  ligne une */  
+
 .coordinate
 {
     display: flex;
@@ -75,6 +78,8 @@ li
 .prenom
 {
     color: #F87F28;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 .poste
 {
@@ -132,7 +137,7 @@ li
     letter-spacing: 3px;
     margin-top: 214px;
     margin-bottom: 4px;
-    
+    color: #BFBFBF;
 }
 .logoclients
 {
@@ -525,3 +530,115 @@ input[type="text"]
     margin-top: 20px;
 }
 /* media media media media media*/
+#contenair
+{
+    background-color: #202020;;
+    background-image: none;
+    width: min (100%,1860px);
+    min-height: 100vh;
+} 
+
+
+
+
+.coordinate
+{
+    display: block;  
+    margin-left: 30px; 
+}
+.phone,.mail
+{
+    display: none;
+}
+#table1
+{
+    display: block;
+    margin-left: 23px;
+} 
+.colright
+{
+    display: none;
+}
+h1
+{
+    font-size: 40px;
+}
+ /*  clients logos */ 
+.clients
+{
+    text-align: left;
+    
+}
+.logoclients
+{
+    display: block;
+    
+}
+  /*  diapo 2 */ 
+  .technique
+{
+    display: block;
+    column-gap: 90px;
+    margin-bottom: 324px;
+}
+#pointfort
+{
+    margin-left: 38px;
+    margin-right: 0px;
+}
+/* diapo3 */ 
+.diapo3
+{
+    display: block;  
+}
+.bureau,.water,.orange
+{
+    display: block;
+}
+ /* diapo4 */ 
+ button
+ {
+    
+ }
+ .general
+{
+    display: block;
+    margin-top: 239px;
+}
+.bloc3
+{
+   display: none; 
+}
+/* diapo5 */ 
+.diapo5
+{
+    display: none;
+}
+/* diapo6 */ 
+#temoignage
+{
+    display: block;
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-top: 53px;
+}
+#photoceo
+{
+    display: none;
+}
+.temoignage1
+{
+    width: 299px;
+}
+/* diapo7 */ 
+#Actualités
+{
+    display: block;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+/* diapo8 */
+#contact
+{
+    display: block;
+}
