@@ -20,6 +20,7 @@ body
 {
     display: flex;
     margin: 62px;
+    
 }  
 .firstname
 {
@@ -37,6 +38,24 @@ body
     margin-top: 30px;
     margin-right: 32.8px;
 } 
+#burger
+{
+    width: 24px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: 20px;
+    
+}
+.bar 
+{
+    width: 100%;
+    height: 1px;
+    padding: 10px;
+    border-bottom: 1px solid #888888;
+   
+}
 
     /*  tableau un---------------------------------------------------------------------------------- */  
 #table1
@@ -584,7 +603,10 @@ label[for="msg"]
 /* media media media media media---------------------------------------------------------------*/
 
 @media screen and (max-device-width: 374.99px) {
-    
+    body 
+    {
+        margin: 0;
+    }
     #contenair
     {
         background-color: #202020;;
@@ -614,21 +636,31 @@ label[for="msg"]
     } 
     .colright
     {
+        display: block;
+        margin: 0;
+    }
+    .photoprofil
+    {
         display: none;
+        margin: 0;
     }
     h1
     {
         font-size: 40px;
+        width: 340px;
     }
 /*  clients logos --------------------------------------------------------------------------------------*/ 
     .clients
     {
         text-align: left;
+        width: 218px;
         
     }
     .logoclients
     {
         display: block;
+        content: url(images/clientmedia.png);
+        margin-left: 0;
         
     }
 /*  diapo 2 ---------------------------------------------------------------------------------------------*/ 
@@ -651,6 +683,31 @@ label[for="msg"]
     .bureau,.water,.orange
     {
         display: block;
+    }
+    .cosmo
+    {
+        content: url(images/cosmomedia.png);
+        
+    }
+    .bureau
+    {
+        content: url(images/bureaumedia.png);
+    }
+    .peinture
+    {
+        content: url(images/peinturemedia.png);
+    }
+    .water
+    {
+        content: url(images/eaumedia.png);
+    }
+    .machine
+    {
+        content: url(images/machinemedia.png);
+    }
+    .orange
+    {
+        content: url(images/orangemedia.png);
     }
 /* diapo4------------------------------------------------------------------------------------------------ */ 
     
