@@ -14,7 +14,7 @@ body
     background-image: url(images/Geeknius\ Dark.png);
     width: min(100%,1860px);
 }
-/*  ligne une */  
+/*  ligne une---------------------------------------------------------------------- */  
 
 .coordinate
 {
@@ -38,7 +38,7 @@ body
     margin-right: 32.8px;
 } 
 
-    /*  tableau un */  
+    /*  tableau un---------------------------------------------------------------------------------- */  
 #table1
 {
     display: flex;
@@ -89,7 +89,7 @@ li
     margin-top: 86px;
 }
 
-    /*  boutons */  
+    /*  boutons ----------------------------------------------------------------------------------------*/  
 #boutons
 {
     display: flex;
@@ -263,7 +263,7 @@ h3
     margin-bottom: 0;
     margin-top: 16px;
 }
-  /* diapo3 */ 
+  /* diapo3---------------------------------------------------------------------------------------------- */ 
 h4
 {
     font-size: 36px;
@@ -300,7 +300,7 @@ h4
 {
    border-radius: 20px; 
 }
-    /* diapo4 */ 
+    /* diapo4------------------------------------------------------------------------------------------- */ 
 
 
 
@@ -429,7 +429,7 @@ button
     margin-bottom: 188.64px;  
 }
 
-/* diapo7 */ 
+/* diapo7------------------------------------------------------------------------------------------- */ 
 #Actualités, #contact
 {
     display: flex;
@@ -469,7 +469,7 @@ button
     text-align: left;
 }
 
-/* diapo8 */
+/* diapo8-------------------------------------------------------------------------------------------- */
 
 .contact1
 {
@@ -507,26 +507,81 @@ button
 .champs_formulaire
 {
     display: flex;
+    align-items: center;   
 }
+
+.disp_block
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.champ_email
+{
+    margin-left: 36px;
+}
+
 label
 {
     font-family: 'Roboto', sans-serif;
     font-size: 14px; 
     line-height: 23.8px;
     color: #E5E9F1;
-    display: inline-block;
-    margin-top: -20px;
+    background-color: #202020;
+    position: relative;
+    box-sizing: border-box;
+    
+    
+      
 }
-input[type="text"]
+input[type="text"], [type="email"]
 {
-    background-color: aqua; 
-
-    border: 1px solid yellow ;
+    background-color: transparent;
+    outline: 1px solid #828282;
     border-radius: 4px;
-    padding: 10px;
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top:-10px;
+    border: 0;
+    width: 253px; 
+    box-sizing: border-box;
+    margin-bottom: 11px;
+    
 }
-/* media media media media media*/
+[id="msg"]
+{
+    background-color: transparent;
+    outline: 1px solid #828282;
+    border-radius: 4px;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+    margin-top:-10px;
+    border: 0;
+    width: 540px;  
+    margin-bottom: 28px;
+    
+}
+label[for="name"], [for="mail"]
+{
+    width: 78px;
+    margin-left: 15px;
+}
+label[for="msg"]
+{
+    width: 70px;
+    margin-left: 15px;
+}
+
+
+#col2
+{
+  margin-left: 152px;  
+}
+
+/* media media media media media---------------------------------------------------------------*/
 
 @media screen and (max-device-width: 374.99px) {
     
@@ -565,7 +620,7 @@ input[type="text"]
     {
         font-size: 40px;
     }
-    /*  clients logos */ 
+/*  clients logos --------------------------------------------------------------------------------------*/ 
     .clients
     {
         text-align: left;
@@ -576,7 +631,7 @@ input[type="text"]
         display: block;
         
     }
-    /*  diapo 2 */ 
+/*  diapo 2 ---------------------------------------------------------------------------------------------*/ 
     .technique
     {
         display: block;
@@ -588,7 +643,7 @@ input[type="text"]
         margin-left: 38px;
         margin-right: 0px;
     }
-    /* diapo3 */ 
+/* diapo3--------------------------------------------------------------------------------------------- */ 
     .diapo3
     {
         display: block;  
@@ -597,7 +652,7 @@ input[type="text"]
     {
         display: block;
     }
-    /* diapo4 */ 
+/* diapo4------------------------------------------------------------------------------------------------ */ 
     
     .general
     {
@@ -608,12 +663,12 @@ input[type="text"]
     {
         display: none; 
     }
-    /* diapo5 */ 
+ /* diapo5 -------------------------------------------------------------------------------------------*/ 
     .diapo5
     {
         display: none;
     }
-    /* diapo6 */ 
+/* diapo6--------------------------------------------------------------------------------------------- */ 
     #temoignage
 {
     display: block;
@@ -629,13 +684,13 @@ input[type="text"]
 {
     width: 299px;
 }
-/* diapo7 */ 
+/* diapo7------------------------------------------------------------------------------------------------- */ 
 #Actualités, #contact
 {
     display: block;
     margin-left: 35px;
     margin-right: 35px;
 }
-/* diapo8 */
+/* diapo8 ---------------------------------------------------------------------------------------------*/
 
 }
