@@ -19,7 +19,7 @@ body
 .coordinate
 {
     display: flex;
-    margin: 62px;
+    margin: 62px 62px 0px
     
 }  
 .firstname
@@ -69,7 +69,7 @@ body
     line-height: 24px;
     letter-spacing: 0.25px;
     text-transform: uppercase;
-    margin-top: 92px;
+    margin-top: 60px;
     margin-bottom: 33px;
         
 } 
@@ -79,6 +79,8 @@ h1
     line-height: 100.8px;
     letter-spacing: -3px;
     width: 706px;  
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 ul
 {
@@ -102,10 +104,12 @@ li
     font-size: 16px;
     line-height: 24px;
     margin-top: 24px;
+    margin-bottom: 60px;
 }
 .photoprofil
 {
-    margin-top: 86px;
+    margin-top: 56px;
+    margin-bottom: 0px;
 }
 
     /*  boutons ----------------------------------------------------------------------------------------*/  
@@ -160,6 +164,10 @@ li
     margin-left: 335px;
     
 }
+.sega
+{
+    margin: 0;
+}
 /*.ubisoft
 {
     margin-left: 60.21px;
@@ -183,27 +191,28 @@ h2
     font-weight: 600;
     line-height: 60px;
     text-align: center;
-    margin-top: 221px;
+    margin-top: 170px;
     margin-bottom: 45px;
 }
-.competences
+.competences, .competences1
 {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+    margin-bottom: 116px;
 }
 .technique
 {
     display: grid;
     column-gap: 90px;
-    margin-bottom: 324px;
+    margin-bottom: 290px;
     
 }
 .imgtech
 {
     grid-column: 1;
     grid-row: 1;
-    
+   
 }
 .tech
 {
@@ -217,6 +226,7 @@ h2
     font-size: 14px;
     line-height: 24px;
     width: 172px;
+    margin-top: 18px;
    
 }
 .imggestion
@@ -235,6 +245,9 @@ h2
     grid-column: 2;
     grid-row: 3; 
     width: 176px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 24px;
 }
 .imgmanagement
 {
@@ -252,6 +265,9 @@ h2
     grid-column: 3;
     grid-row: 3;
     width: 191px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 24px;
 }
 .imglangues
 {
@@ -268,6 +284,9 @@ h2
     grid-column: 4;
     grid-row: 3; 
     width: 192px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 24px;
 }
 #pointfort
 {
@@ -283,15 +302,23 @@ h3
     margin-top: 16px;
 }
   /* diapo3---------------------------------------------------------------------------------------------- */ 
-h4
+#marge3
+{
+    margin-left: 382px;
+    
+     
+}
+  h4
 {
     font-size: 36px;
     font-weight: 600;
     line-height: 60px;
+    width: 296px;
+    margin-top: 0;
 }
 .galerie
 {
-    width: 360px;
+    width: 296px;
     font-size: 14px;
     line-height: 24px;
 }
@@ -305,14 +332,19 @@ h4
     width: 1020px;
     display: block;
 }
+.one
+{
+    margin-top: 0;
+}
 .three,.two,.one
 {
-    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .cosmo,.peinture,.machine
 {
-    padding-right: 15px;
+    padding-right: 12px;
     border-radius: 20px;
+    
    
 }
 .bureau,.water,.orange
@@ -320,7 +352,10 @@ h4
    border-radius: 20px; 
 }
     /* diapo4------------------------------------------------------------------------------------------- */ 
-
+#titrediapo4
+{
+    margin-bottom: 16px;
+}
 
 
 .Experience
@@ -328,7 +363,8 @@ h4
     width: 242px;
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 29px ;
+    margin-bottom: 29px;
+    margin-top: 31px;
 }
 button
 {
@@ -347,7 +383,7 @@ button
 .general
 {
     display: flex;
-    margin-top: 239px;
+    margin-top: 219px;
 }
 .aujourdhui, .mai, .sept
 {
@@ -358,6 +394,10 @@ button
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+.mai, .sept
+{
+    margin-top: 42px;
+}
 .webdev, .directeur, .webdev2
 {
     font-size: 18px;
@@ -365,25 +405,30 @@ button
     font-weight: 700;
     text-transform: capitalize;
     width: 262px;
-    gap: 70px;
+    /*gap: 70px;*/
     margin-top: 13px;
+    
 }
 .bloc2
 {
     margin-left: 121px;
-    margin-right: 75px;
+    /*margin-right: 75px;*/
+   
+   
 }
 .webdev
 {
-    margin-bottom: 105px;
+    margin-bottom: 71px;
+    
 }
 .directeur
 {
-    margin-bottom: 72px;
+    margin-bottom: 71px;
 }
-.taches1, .taches2
+.taches1, .taches2, .taches3
 {
-    margin-bottom: 72px;
+    margin-bottom: 41px;
+    margin-left: 75px;
 }
 .taches1, .taches2, .taches3
 {
@@ -391,10 +436,30 @@ button
     line-height: 24px;
     width: 328px;
     
+    
 }
+.taches2
+{
+    margin-bottom: 69px;  
+    margin-top: 40px; 
+}
+
 .taches3
 {
+    margin-top: 40px;
     width: 302px;
+}
+.ligne1
+{
+    display: block;
+    border-bottom: 1px solid rgba(173, 181, 189, 0.16);
+    
+}
+.traitorange
+{
+    display: block;
+    border-bottom: 3px solid #F87F28; 
+    width: 73px;
 }
  
 /* diapo5 */ 
@@ -405,15 +470,20 @@ button
 .titre2
 {
     margin-top: 245px;
+    text-align: left;
+    margin-bottom: 9px;
 }
-.competences
+.competences1
 {
-    font-size: 14px;
-    line-height: 24px;
+    
+    width: 327px;
+    text-align: left;
+    margin-top: 39px;
 }
 #softskill
 {
     margin-top: 200px;
+    margin-right: 93px;
 }
 
 /* diapo6 */ 
