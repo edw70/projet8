@@ -314,7 +314,8 @@ h3
     font-weight: 600;
     line-height: 60px;
     width: 296px;
-    margin-top: 0;
+    margin-top: 15px;
+    
 }
 .galerie
 {
@@ -479,6 +480,7 @@ button
     width: 327px;
     text-align: left;
     margin-top: 39px;
+    margin-bottom: 204px;
 }
 #softskill
 {
@@ -493,7 +495,7 @@ button
     column-gap: 40px;
     margin-left: 512px;
     margin-right: 512px;
-    margin-top: 90px;
+    margin-top: 82px;
 }
 .temoignage1
 {
@@ -501,7 +503,8 @@ button
     font-style: italic;
     line-height: 35.7px;
     margin-top: 0;
-    margin-bottom: 37.36px;
+    margin-bottom: 37.5px;
+    
 }
 .nomceao
 {
@@ -519,11 +522,12 @@ button
 }
 
 /* diapo7------------------------------------------------------------------------------------------- */ 
-#Actualités, #contact
+#Actualités
 {
     display: flex;
     margin-left: 383px;
     margin-right: 383px;
+    margin-top: 109px;
 
 }
 #titreactualités
@@ -539,18 +543,31 @@ button
     letter-spacing: 2px;
     color: #F87F28;
     text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 9.5px;
 }
 .detailstitre
 {
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
+    margin: 0;
 }
-.descripactu, .lien
+.descripactu, .lien, .descripactu1
 {
     font-size: 14px;
     line-height: 24px;
     width: 522px;
+    margin-top: 10px;
+    margin-bottom: 37px;
+}
+.descripactu1
+{
+    margin-bottom: 0px;
+}
+.lien
+{
+    margin-top: 0;
 }
 #actu1
 {
@@ -564,7 +581,8 @@ button
 {
     color: #BFBFBF;  
     text-align: left;
-    margin-top: 197px;
+    margin-top: 210px;
+    margin-bottom: 26px;
 }
 .adresse, .email, .telephone
 {
@@ -573,6 +591,30 @@ button
     line-height: 24px;
     letter-spacing: -1px;
     color: #F87F28;
+    margin-bottom: 6px;
+    
+}
+
+.haut
+{
+    vertical-align: 15px;
+}
+.adresse::before
+{
+    content: url(images/map.svg);
+    margin-right: 24px;
+    margin-top: 15px;
+    
+}
+.email::before
+{
+    content: url(images/mail.svg);
+    margin-right: 24px;
+}
+.telephone::before
+{
+    content: url(images/phone.svg);
+    margin-right: 24px;
 }
 
 .adresse1, .email1, .telephone1
@@ -580,11 +622,18 @@ button
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 55px;
+    margin-left: 66px;
+}
+.adresse1
+{
+    margin-bottom: 26px;
 }
 
 #contactezmoi
 {
-    margin-top: 140px;
+    margin-top: 180px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 16.8px;
@@ -597,6 +646,29 @@ button
 {
     display: flex;
     align-items: center;   
+}
+#formulaire
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+#petitdescrip
+{
+  margin-top: 12px;  
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  width: 522px;
+}
+#contact
+{
+    display: flex;
+    margin-left: 390px;
+    margin-right: 300px;
+    margin-top: 100px;
 }
 
 .disp_block
@@ -667,7 +739,12 @@ label[for="msg"]
 
 #col2
 {
-  margin-left: 152px;  
+  margin-left: 185px;  
+}
+button
+{
+width: 165px;
+margin-bottom: 172px;
 }
 
 /* media media media media media---------------------------------------------------------------*/
