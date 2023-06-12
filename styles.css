@@ -82,11 +82,12 @@ body
 {
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.25px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     margin-top: 60px;
     margin-bottom: 33px;
-        
+    font-family: 'Roboto', sans-serif;  
+    
 } 
 h1
 {
@@ -96,6 +97,7 @@ h1
     width: 706px;  
     margin-top: 0;
     margin-bottom: 16px;
+    font-weight: 400;
 }
 ul
 {
@@ -793,19 +795,29 @@ label[for="msg"]
     #contenair
     {
         background-color: #202020;;
-        background-image: none;
+        background-image: url(images/bgmobile.png);
         margin: 0;
     }
     
     .coordinate
     {
-        display: block;  
+        display: flex;  
         margin-left: 30px;
-        margin-top: 0px;
+        margin-top: 0;
     }
     .firstname
     {
-        margin-top: 22px;
+        margin-top: 0;
+        padding-top: 22px;
+    }
+    #burger
+    {
+        margin-left: 119px;
+        width: 49px;
+        height: 49px;
+        background-color: #F87F28;
+        border-radius: 100%;
+       
     }
 
     .phone,.mail
@@ -816,6 +828,12 @@ label[for="msg"]
     {
         display: block;
         margin-left: 23px;
+    }
+    .metier
+    {
+       margin-top: 25px;
+       margin-left: 5px;
+       margin-bottom: 20px;
     } 
     .colright
     {
@@ -829,14 +847,21 @@ label[for="msg"]
     }
     h1
     {
-        font-size: 40px;
-        width: 340px;
+        font-size: 40px; 
+        
     }
+    .prenom
+    {
+        font-size: 72px;
+    }
+   
 /*  clients logos --------------------------------------------------------------------------------------*/ 
     .clients
     {
         text-align: left;
         width: 218px;
+        margin-top: 67.3px;
+        margin-left: 27px;
         
     }
     .logoclients
@@ -844,10 +869,19 @@ label[for="msg"]
         display: block;
         content: url(images/clientmedia.png);
         margin-left: 0;
+
         
     }
 /*  diapo 2 ---------------------------------------------------------------------------------------------*/ 
-    .technique
+    h2 
+    {
+        text-align: left;
+        margin-left: 27px;
+        border-bottom: 3px solid #F87F28; 
+        width: 70.84px;
+        
+    }
+.technique
     {
         display: block;
         column-gap: 90px;
@@ -858,6 +892,17 @@ label[for="msg"]
         margin-left: 38px;
         margin-right: 0px;
     }
+    p br
+    {
+        display: none;
+    }
+
+    .competences
+    {
+        text-align: left;
+        margin-left: 27px;
+        margin-right: 20px;
+    }
 /* diapo3--------------------------------------------------------------------------------------------- */ 
     .diapo3
     {
@@ -866,6 +911,11 @@ label[for="msg"]
     .bureau,.water,.orange
     {
         display: block;
+    }
+    .photos
+    {
+        width: 374px;
+        margin: 0;
     }
     .cosmo
     {
@@ -920,6 +970,10 @@ label[for="msg"]
 {
     display: none;
 }
+#guillemets
+{
+    display: none;
+}
 .temoignage1
 {
     width: 299px;
@@ -932,5 +986,17 @@ label[for="msg"]
     margin-right: 35px;
 }
 /* diapo8 ---------------------------------------------------------------------------------------------*/
+.champs_formulaire
+{
+    display: block;
+}
+
+
+
+
+
+
+
+
 
 }
