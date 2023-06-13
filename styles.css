@@ -13,6 +13,7 @@ body
     background-color: #202020;;
     background-image: url(images/Geeknius\ Dark.png);
     width: min(100%,1860px);
+    
 }
 /*  ligne une---------------------------------------------------------------------- */  
 
@@ -53,24 +54,22 @@ body
     content: url(images/enveloppe.svg);
     margin-right: 13px;
 }
-#burger
+#burger span
 {
-    width: 24px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 1100px;
-    margin-top: 20px;
-    
-}
-.bar 
-{
-    width: 100%;
-    height: 1px;
-    padding: 10px;
+    width: 35px;
+    height: 5px;
+    display: block;
+    margin-bottom: 5px;
     border-bottom: 1px solid #888888;
-   
+    margin-left: 1050px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
+#bar 
+{
+    margin-top: 10px;
+}
+
 
     /*  tableau un---------------------------------------------------------------------------------- */  
 #table1
@@ -228,6 +227,7 @@ h2
     line-height: 24px;
     width: 172px;
     margin-top: 18px;
+    font-weight: 400;
    
 }
 .imggestion
@@ -249,6 +249,7 @@ h2
     margin-top: 18px;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 400;
 }
 .imgmanagement
 {
@@ -269,6 +270,7 @@ h2
     margin-top: 18px;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 400;
 }
 .imglangues
 {
@@ -288,6 +290,7 @@ h2
     margin-top: 18px;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 400;
 }
 #pointfort
 {
@@ -506,9 +509,11 @@ margin-top: 0;
 {
     font-size: 21px;
     font-style: italic;
+    font-weight: 400;
     line-height: 35.7px;
     margin-top: 15px;
     margin-bottom: 37.5px;
+
     
 }
 .nomceao
@@ -796,6 +801,7 @@ label[for="msg"]
     {
         background-color: #202020;;
         background-image: url(images/bgmobile.png);
+        background-repeat: no-repeat;
         margin: 0;
     }
     
@@ -804,20 +810,39 @@ label[for="msg"]
         display: flex;  
         margin-left: 30px;
         margin-top: 0;
+        margin-right: 0;
     }
     .firstname
     {
         margin-top: 0;
         padding-top: 22px;
     }
-    #burger
+    #burger 
     {
-        margin-left: 119px;
-        width: 49px;
-        height: 49px;
+        
+        padding: 13px;
+        padding-bottom: 15px;
         background-color: #F87F28;
-        border-radius: 100%;
-       
+        border-radius: 50px;
+        width: 16px;
+        height: 16px;
+        margin-left: 100px;
+        margin-top: 20px;
+        
+    }
+    #burger span
+    {
+        margin-left: 0;
+        margin-top: 0;
+        width: 15px;
+        padding-top: 0px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #FFFFFF;
+        height: 3px;
+    }
+    #bar
+    {
+        margin-top: 0px;
     }
 
     .phone,.mail
@@ -833,7 +858,7 @@ label[for="msg"]
     {
        margin-top: 25px;
        margin-left: 5px;
-       margin-bottom: 20px;
+       margin-bottom: 0px;
     } 
     .colright
     {
@@ -848,11 +873,26 @@ label[for="msg"]
     h1
     {
         font-size: 40px; 
+        line-height: 40px;
+        margin-top: 40px;
         
     }
     .prenom
     {
         font-size: 72px;
+        line-height: 100.8px;
+    }
+    ul 
+    {
+        width: 322px;
+    }
+    li 
+    {
+        display: inline;
+    }
+    .poste
+    {
+        margin-bottom: 32px;
     }
    
 /*  clients logos --------------------------------------------------------------------------------------*/ 
@@ -877,15 +917,20 @@ label[for="msg"]
     {
         text-align: left;
         margin-left: 27px;
+        margin-top: 72.36px;
+        margin-bottom: 29px;
+        padding-bottom: 9px;
+        box-sizing: border-box;
         border-bottom: 3px solid #F87F28; 
         width: 70.84px;
         
     }
+   
 .technique
     {
         display: block;
         column-gap: 90px;
-        margin-bottom: 324px;
+        margin-bottom: 49px;
     }
     #pointfort
     {
@@ -902,12 +947,40 @@ label[for="msg"]
         text-align: left;
         margin-left: 27px;
         margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    h3 
+    {
+        margin-top: 8px;
+    }
+    .descriptech, .descripgestion, .descripmanage, .descriplang
+    {
+        width: 301px;
+        margin-bottom: 38px;
+
     }
 /* diapo3--------------------------------------------------------------------------------------------- */ 
-    .diapo3
+#marge3 
+{
+    margin-left: 27px;
+}
+.diapo3
+
     {
         display: block;  
     }
+ h4
+ {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 11px;
+ }
+ .descriportfolio
+ {
+    margin-top: 26px;
+    margin-bottom: 41px;
+   
+ }
     .bureau,.water,.orange
     {
         display: block;
@@ -920,23 +993,28 @@ label[for="msg"]
     .cosmo
     {
         content: url(images/cosmomedia.png);
+        margin-bottom: 28px;
         
     }
     .bureau
     {
         content: url(images/bureaumedia.png);
+        margin-bottom: 28px;
     }
     .peinture
     {
         content: url(images/peinturemedia.png);
+        margin-bottom: 28px;
     }
     .water
     {
         content: url(images/eaumedia.png);
+        margin-bottom: 28px;
     }
     .machine
     {
         content: url(images/machinemedia.png);
+        margin-bottom: 28px;
     }
     .orange
     {
@@ -947,8 +1025,40 @@ label[for="msg"]
     .general
     {
         display: block;
-        margin-top: 239px;
+        margin-top: 83px;
     }
+    #titrediapo4
+    {
+        margin-left: 0;
+    }
+    .bloc2
+    {
+        margin-left: 0;
+    }
+    .aujourdhui
+    {
+        margin-top: 48px;
+    }
+    .ligne1 
+    {
+        display: none;
+    }
+    .webdev, .directeur
+    {
+        margin-bottom: 50px;
+        margin-left: 54px;
+    }
+    .webdev2
+    {
+        margin-left: 54px;
+        position:relative
+    }
+    #boutondowload
+    {
+        position: absolute;
+        top: 4470px;
+    }
+   
     .bloc3
     {
         display: none; 
@@ -959,12 +1069,19 @@ label[for="msg"]
         display: none;
     }
 /* diapo6--------------------------------------------------------------------------------------------- */ 
-    #temoignage
+    #tem
+    {
+       border-bottom: none;
+       margin-top: 130px;
+       margin-bottom: 0;
+       
+    }
+#temoignage
 {
     display: block;
     margin-left: 37px;
     margin-right: 37px;
-    margin-top: 53px;
+    margin-top: 43px;
 }
 #photoceo
 {
@@ -978,20 +1095,115 @@ label[for="msg"]
 {
     width: 299px;
 }
+.ceo
+{
+    margin-bottom: 0;
+}
 /* diapo7------------------------------------------------------------------------------------------------- */ 
-#Actualités, #contact
+#Actualités
 {
     display: block;
     margin-left: 35px;
     margin-right: 35px;
+    margin-top: 62px;
+    
+}
+#titreactualités
+{
+    margin-bottom: 49px;
+}
+#actu1
+{
+    border-bottom: none;
+    margin-top: 25px;
+}
+.dates
+{
+   margin-top: 34px;
+}
+.descripactu
+{
+    
+    width: 210px;
+    margin-right: 0px;
+   
+}
+.descripactu1
+{
+    width: 250px;
+    margin-right: 0;
+}
+.lien
+{
+    width: 297px;
 }
 /* diapo8 ---------------------------------------------------------------------------------------------*/
 .champs_formulaire
 {
     display: block;
 }
+#contact
+{
+    display: block;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 61px;
+}
+.contact1
+{
+    border-bottom: none;
+    margin-top: 0;
+}
+.haut
+{
+    vertical-align: 20px;
+}
 
-
+.adresse1, .email1, .telephone1
+{
+    font-size: 16px;
+    margin-left: 60px;
+   
+   
+}
+.adresse1
+{
+    width: 186px;
+}
+#col2
+{
+   margin: 0; 
+}
+#contactezmoi
+{
+    display: none;
+}
+#formulaire,  #petitdescrip
+{
+    color: #BFBFBF;
+}
+#petitdescrip
+{
+  width: 282px;  
+}
+.champ_email
+{
+    margin-left: 0px;
+}
+input[type="text"], [type="email"]
+{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-right: 37px;
+    width: 308px;
+}
+[id="msg"]
+{
+    width: 308px;
+    margin-bottom: 33px;
+}
 
 
 
