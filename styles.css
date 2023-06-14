@@ -7,20 +7,31 @@ body
     background-color: #e5e5e5;
     color:#FFFFFF;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 #contenair
 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#component
+{
+    
     background-color: #202020;;
     background-image: url(images/Geeknius\ Dark.png);
     width: min(100%,1860px);
     
+   
 }
 /*  ligne une---------------------------------------------------------------------- */  
 
 .coordinate
 {
     display: flex;
-    margin: 62px 62px 0px
+    margin: 0px 62px 0px
     
 }  
 .firstname
@@ -792,12 +803,12 @@ label[for="msg"]
 
 /* media media media media media---------------------------------------------------------------*/
 
-@media screen and (max-device-width: 374.99px) {
+@media screen and (max-device-width: 375px) {
     body 
     {
         margin: 0;
     }
-    #contenair
+    #component
     {
         background-color: #202020;;
         background-image: url(images/bgmobile.png);
