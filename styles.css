@@ -809,7 +809,7 @@ label[for="msg"]
 
 /* media media media media media---------------------------------------------------------------*/
 
-@media screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 412px) {
     body 
     {
         margin: 0;
