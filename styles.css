@@ -104,7 +104,7 @@ h1
     font-size: 72px;
     line-height: 100.8px;
     letter-spacing: -3px;
-    width: 706px;  
+    width: min(100%,706px);  
     margin-top: 0;
     margin-bottom: 16px;
     font-weight: 400;
@@ -1005,31 +1005,36 @@ label[for="msg"]
     {
         content: url(images/cosmomedia.png);
         margin-bottom: 28px;
-        
+        width: 100%;
     }
     .bureau
     {
         content: url(images/bureaumedia.png);
         margin-bottom: 28px;
+        width: 100%;
     }
     .peinture
     {
         content: url(images/peinturemedia.png);
         margin-bottom: 28px;
+        width: 100%;
     }
     .water
     {
         content: url(images/eaumedia.png);
         margin-bottom: 28px;
+        width: 100%;
     }
     .machine
     {
         content: url(images/machinemedia.png);
         margin-bottom: 28px;
+        width: 100%;
     }
     .orange
     {
         content: url(images/orangemedia.png);
+        width: 100%;
     }
 /* diapo4------------------------------------------------------------------------------------------------ */ 
     
